@@ -1,0 +1,28 @@
+{
+  "name": "cs300-mo6-lab4-mma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FA25-CS300-MehmetMertAsma/CS300-MO6-Lab4-MMA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FA25-CS300-MehmetMertAsma/CS300-MO6-Lab4-MMA/issues"
+  },
+  "homepage": "https://github.com/FA25-CS300-MehmetMertAsma/CS300-MO6-Lab4-MMA#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
