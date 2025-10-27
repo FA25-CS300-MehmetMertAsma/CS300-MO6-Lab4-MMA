@@ -20,7 +20,7 @@ const db = new sqlite3.Database('./tasks.db', (err) => {
 
 // Create the task table when the DB is first set up
 // This will only create the table if it does not already exist
-db.serialice(() => {
+db.serialize(() => {
 
     db.run(`CREATE TABLE IF NOT EXISTS tasks (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
